@@ -1,9 +1,15 @@
+@import "variables.scss";
+
 .headerContainer {
   width: 100%;
   height: 120px;
-  background-color: aqua;
+  background-color: $mainColor;
   display: flex;
-  justify-content: space-between;
+  
+
+  h1 {
+    color: #fff;
+  }
 
   .logoContainer {
     padding: 20px;
@@ -12,14 +18,37 @@
   .navContainer {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    // width: 60%;
+    margin-left: auto;
 
     .navigationElement {
-      width: 100%;
+      // width: 100%;
       display: flex;
       flex-direction: row;
       justify-content: space-around;
       align-items: center;
     }
+    .navItem {
+      margin-right: 1.5em;
+    }
   }
+
+  .cartContainer {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+
+    .cartToolTip {
+      display: flex;
+      position: absolute;
+    }
+  }
+
+  .cartContainer svg:hover {
+    cursor: pointer;
+  }
+
+
 }
