@@ -1,0 +1,74 @@
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex 1ee861d..6776088 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -1183,6 +1183,35 @@[m
+         }[m
+       }[m
+     },[m
+[32m+[m[32m    "@fortawesome/fontawesome-common-types": {[m
+[32m+[m[32m      "version": "0.2.35",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.35.tgz",[m
+[32m+[m[32m      "integrity": "sha512-IHUfxSEDS9dDGqYwIW7wTN6tn/O8E0n5PcAHz9cAaBoZw6UpG20IG/YM3NNLaGPwPqgjBAFjIURzqoQs3rrtuw=="[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "@fortawesome/fontawesome-svg-core": {[m
+[32m+[m[32m      "version": "1.2.35",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.35.tgz",[m
+[32m+[m[32m      "integrity": "sha512-uLEXifXIL7hnh2sNZQrIJWNol7cTVIzwI+4qcBIq9QWaZqUblm0IDrtSqbNg+3SQf8SMGHkiSigD++rHmCHjBg==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "@fortawesome/fontawesome-common-types": "^0.2.35"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "@fortawesome/free-solid-svg-icons": {[m
+[32m+[m[32m      "version": "5.15.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.15.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-XPeeu1IlGYqz4VWGRAT5ukNMd4VHUEEJ7ysZ7pSSgaEtNvSo+FLurybGJVmiqkQdK50OkSja2bfZXOeyMGRD8Q==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "@fortawesome/fontawesome-common-types": "^0.2.35"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+[32m+[m[32m    "@fortawesome/react-fontawesome": {[m
+[32m+[m[32m      "version": "0.1.14",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.14.tgz",[m
+[32m+[m[32m      "integrity": "sha512-4wqNb0gRLVaBm/h+lGe8UfPPivcbuJ6ecI4hIgW0LjI7kzpYB9FkN0L9apbVzg+lsBdcTf0AlBtODjcSX5mmKA==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "prop-types": "^15.7.2"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "@hapi/address": {[m
+       "version": "2.1.4",[m
+       "resolved": "https://registry.npmjs.org/@hapi/address/-/address-2.1.4.tgz",[m
+[36m@@ -2194,6 +2223,14 @@[m
+         "@babel/types": "^7.3.0"[m
+       }[m
+     },[m
+[32m+[m[32m    "@types/cheerio": {[m
+[32m+[m[32m      "version": "0.22.28",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@types/cheerio/-/cheerio-0.22.28.tgz",[m
+[32m+[m[32m      "integrity": "sha512-ehUMGSW5IeDxJjbru4awKYMlKGmo1wSSGUVqXtYwlgmUM8X1a0PZttEIm6yEY7vHsY/hh6iPnklF213G0UColw==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "@types/node": "*"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "@types/eslint": {[m
+       "version": "7.2.6",[m
+       "resolved": "https://registry.npmjs.org/@types/eslint/-/eslint-7.2.6.tgz",[m
+[36m@@ -2225,6 +2262,15 @@[m
+         "@types/node": "*"[m
+       }[m
+     },[m
+[32m+[m[32m    "@types/hoist-non-react-statics": {[m
+[32m+[m[32m      "version": "3.3.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "@types/react": "*",[m
+[32m+[m[32m        "hoist-non-react-statics": "^3.3.0"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "@types/html-minifier-terser": {[m
+       "version": "5.1.1",[m
+       "resolved": "https://registry.npmjs.org/@types/html-minifier-terser/-/html-minifier-terser-5.1.1.tgz",[m
+[36m@@ -2295,11 +2341,37 @@[m
+       "resolved": "https://registry.npmjs.org/@types/prettier/-/prettier-2.2.2.tgz",[m
+       "integrity": "sha512-i99hy7Ki19EqVOl77WplDrvgNugHnsSjECVR/wUrzw2TJXz1zlUfT2ngGckR6xN7yFYaijsMAqPkOLx9HgUqHg=="[

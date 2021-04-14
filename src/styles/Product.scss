@@ -1,0 +1,16 @@
+@import "variables.scss";
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 5px;
+    color: $textColor;
+    padding: 0.5em;
+    img {
+        max-width: 300px;
+        border-radius: 10px;
+    }
+    // max-width: 300px;
+}
