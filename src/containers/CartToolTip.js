@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import CartProductComponent from '../components/CartProductComponent'
 
-function CartToolTip({cart, removeFunction}) {
+function CartToolTip({cart, removeFunction, closeFunction}) {
 
 
     //FOR TOMMOROW
@@ -31,6 +31,7 @@ function CartToolTip({cart, removeFunction}) {
 
     return (
         <div className="cartToolTip">
+            <button style={{width: "30px",marginLeft:"auto",height:"30px"}} onClick={closeFunction}>X</button>
             {showCartProducts()}
         </div>
     )

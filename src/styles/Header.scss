@@ -40,9 +40,33 @@
     color: #fff;
     margin: 0 auto;
 
+    .tooltipContainer{
+      display: inline-block;
+      position: relative;
+    }
+
     .cartToolTip {
       display: flex;
       position: absolute;
+      z-index: 1;
+      flex-direction: column;
+      left: -250px;
+      background: $accentColor;
+      
+      .cartProductComponent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1em;
+        background: $mainColor;
+        width: 350px;
+        padding: 0 1em;
+        margin: .5em 0;
+
+        img {
+          width: 50px;
+        }
+      }
     }
   }
 

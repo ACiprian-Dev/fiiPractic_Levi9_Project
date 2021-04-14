@@ -20,9 +20,12 @@ const Header = (props) => {
         <Nav />
       </div>
       <div className="cartContainer">
-        <FontAwesomeIcon onMouseEnter={() =>setShowModal(true)} icon={faShoppingCart}></FontAwesomeIcon>
-        {showModal ? <CartToolTip removeFunction={props.onRemoveProduct} cart={props.cart}></CartToolTip>: ""}
+        <div className="tooltipContainer">
+          <FontAwesomeIcon onMouseEnter={() =>setShowModal(true)} icon={faShoppingCart} ></FontAwesomeIcon>
+          {showModal ? <CartToolTip removeFunction={props.onRemoveProduct} closeFunction={() =>setShowModal(false)} cart={props.cart}></CartToolTip>: ""}
+        </div>
         {props.cart.length}
+        
       </div>
     </div>
   );
